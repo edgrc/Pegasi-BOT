@@ -15,7 +15,7 @@ import base64
 load_dotenv()
 TOKEN = os.getenv("DISCORD_TOKEN")
 
-GUILD_ID = 615451884097896459
+GUILD_ID = #add your discord token here !
 
 # Spotify credentials (à remplir dans le .env)
 SPOTIFY_CLIENT_ID = os.getenv("SPOTIFY_CLIENT_ID")
@@ -320,3 +320,4 @@ print(f"TOKEN = {TOKEN}")
 
 # Run the bot
 bot.run(TOKEN)
+
