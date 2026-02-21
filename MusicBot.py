@@ -14,7 +14,7 @@ import requests
 load_dotenv()
 TOKEN = os.getenv("DISCORD_TOKEN")
 
-GUILD_ID = 615451884097896459
+GUILD_ID = #add your token here !
 
 # Create the structure for queueing songs - Dictionary of queues
 SONG_QUEUES = {}
@@ -211,3 +211,4 @@ print(f"TOKEN = {TOKEN}")
 
 # Run the bot
 bot.run(TOKEN)
+
